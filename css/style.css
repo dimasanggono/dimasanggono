@@ -175,7 +175,7 @@ section {
   list-style: none;
   position: relative;
   top: 0;
-  animation: slide 10s steps(4) infinite;
+  animation: slide 13s steps(4) infinite;
 }
 
 @keyframes slide {
@@ -290,6 +290,7 @@ section {
 .connect .content h3 {
   font-size: 3rem;
   color: #fff;
+  text-align: justify;
   text-shadow: 1px 2px;
 }
 
@@ -434,6 +435,9 @@ section {
   }
   .home .content img {
     padding: 1rem 2rem;
+  }
+  .connect .content h3 {
+    text-align: center;
   }
 }
 
